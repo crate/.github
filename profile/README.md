@@ -2,7 +2,7 @@
 
 CrateDB is a hyper-fast open source multi-model database for time series, documents and vectors, combining the simplicity of SQL with the scalability of a distributed architecture.
 
-![The CrateDB Admin Interface](./crate-admin.gif)
+![The CrateDB Admin Interface](/crate/.github/profile/crate-admin.gif)
 
 ## Try it Out
 
