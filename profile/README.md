@@ -26,7 +26,10 @@ Check out our resources to learn about what CrateDB is, how it works, and why yo
 
 ## CrateDB Academy
 
-Become a CrateDB expert by taking our free online courses.  Each course is delivered as a series of videos with supporting additional resources, code, and hands-on exercises.  Pass the final exam and you can earn a Certificate of Completion to share on your LinkedIn Profile.
+Become a CrateDB expert by taking our free online courses.  Each course is
+delivered as a series of videos with supporting additional resources, code,
+and hands-on exercises.  Pass the final exam and you can earn a Certificate
+of Completion to share on your LinkedIn Profile.
 
 Start your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) today!.
 
