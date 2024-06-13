@@ -24,6 +24,15 @@ Check out our resources to learn about what CrateDB is, how it works, and why yo
 * [Our YouTube channel](https://www.youtube.com/@CrateDB)
 * [The CrateDB Reference Manual](https://cratedb.com/docs/crate/reference/en/latest/)
 
+## CrateDB Academy
+
+Become a CrateDB expert by taking our free online courses.  Each course is
+delivered as a series of videos with supporting additional resources, code,
+and hands-on exercises.  Pass the final exam and you can earn a Certificate
+of Completion to share on your LinkedIn Profile.
+
+Start your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) today!.
+
 ## Join the Community / Meet Us
 
 We'd love you to join our [online Discourse community](https://community.cratedb.com/). You'll find a welcoming place to ask questions, get help and check out tutorials.  
