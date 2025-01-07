@@ -10,19 +10,22 @@ name: Check PR Author has signed CLA
 on:
   workflow_call:              # Call from another workflow
     inputs:
-      CLA_SIGNED:             # Label to add when user has signed CLA
+      cla_signed_label:       # Label to add when user has signed CLA
         default: 'cla-signed'
         type: string
-      NEEDS_CLA:              # Label to add when user has not signed CLA
+      needs_cla_label:        # Label to add when user has not signed CLA
         default: 'needs CLA'
         type: string
-  
+      simulate_no_cla:        # set to true to simulate the user has not signed the CLA
+        default: false
+        type: boolean
+        
 jobs:
   check-author-signed-cla:
     runs-on: ubuntu-22.04
     env:
-      CLA_SIGNED: ${{ inputs.CLA_SIGNED }}
-      NEEDS_CLA: ${{ inputs.NEEDS_CLA }}
+      CLA_SIGNED: ${{ inputs.cla_signed_label }}
+      NEEDS_CLA: ${{ inputs.needs_cla_label }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     steps:
@@ -34,7 +37,8 @@ jobs:
             -H "Accept: application/vnd.github.v3.raw" \
             | cut -d',' -f1 > authorized_users.txt
 
-          if grep -Fxq "${{ github.event.pull_request.user.login }}" authorized_users.txt; then
+          if grep -Fxq "${{ github.event.pull_request.user.login }}" authorized_users.txt && \
+                ! ${{ inputs.simulate-no-cla }}; then
             echo "authorized=true" >> $GITHUB_OUTPUT
           else
             echo "authorized=false" >> $GITHUB_OUTPUT
