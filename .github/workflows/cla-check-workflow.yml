@@ -21,7 +21,7 @@ on:
         type: boolean
         
 jobs:
-  check-cla:
+  check-author-signed-cla:
     runs-on: ubuntu-22.04
     env:
       CLA_SIGNED: ${{ inputs.cla_signed_label }}
@@ -37,8 +37,9 @@ jobs:
             -H "Accept: application/vnd.github.v3.raw" \
             | cut -d',' -f1 > authorized_users.txt
 
+          echo "Simulate no cla:${{ inputs.simulate_no_cla }}."
           if grep -Fxq "${{ github.event.pull_request.user.login }}" authorized_users.txt && \
-                ! ${{ inputs.simulate-no-cla }}; then
+                ! ${{ inputs.simulate_no_cla }}; then
             echo "authorized=true" >> $GITHUB_OUTPUT
           else
             echo "authorized=false" >> $GITHUB_OUTPUT
