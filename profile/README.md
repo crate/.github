@@ -4,6 +4,13 @@ CrateDB is a hyper-fast open source multi-model database for time series, docume
 
 ![The CrateDB Admin Interface](https://raw.githubusercontent.com/crate/.github/master/profile/crate-admin.gif)
 
+## Open Source Survey 2026
+
+At CrateDB, we’re deeply committed to our Open Source community and users, and we want to ensure we’re moving in the right direction. To do that, we need your input. Please take five minutes to complete this short survey. Your feedback will directly influence our Open Source strategy.
+
+Please take the [survey](https://www.survio.com/survey/d/N0R2V7S9K6R3Q7B2X)
+
+
 ## Try it Out
 
 There are two ways to get a CrateDB instance up and running quickly:
@@ -35,7 +42,7 @@ Start your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) t
 
 ## Join the Community / Meet Us
 
-We'd love you to join our [online Discourse community](https://community.cratedb.com/). You'll find a welcoming place to ask questions, get help and check out tutorials.  
+We'd love you to join our [online Discourse community](https://community.cratedb.com/). You'll find a welcoming place to ask questions, get help and check out tutorials.
 
 We're also on [Twitter/X](https://twitter.com/cratedb) and [LinkedIn](https://www.linkedin.com/company/crateio/posts/?feedView=all).
 
