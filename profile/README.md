@@ -1,6 +1,6 @@
 ## Welcome!
 
-CrateDB is a hyper-fast open source multi-model database for time series, documents and vectors, combining the simplicity of SQL with the scalability of a distributed architecture.
+CrateDB is a fast open source multi-model database for time series, documents and vectors, combining the simplicity of SQL with the scalability of a distributed architecture.
 
 ![The CrateDB Admin Interface](https://raw.githubusercontent.com/crate/.github/master/profile/crate-admin.gif)
 
@@ -8,14 +8,13 @@ CrateDB is a hyper-fast open source multi-model database for time series, docume
 
 At CrateDB, we’re deeply committed to our Open Source community and users, and we want to ensure we’re moving in the right direction. To do that, we need your input. Please take five minutes to complete this short survey. Your feedback will directly influence our Open Source strategy.
 
-Please take the [survey](https://www.survio.com/survey/d/N0R2V7S9K6R3Q7B2X)
-
+Please take the [survey](https://www.survio.com/survey/d/N0R2V7S9K6R3Q7B2X).
 
 ## Try it Out
 
 There are two ways to get a CrateDB instance up and running quickly:
 
-1. Sign up for the [CrateDB Cloud](https://console.cratedb.cloud/) and choose our free plan.
+1. Sign up for the [CrateDB Cloud](https://console.cratedb.cloud/) and choose our free plan
 1. Spin up the official [Docker image](https://hub.docker.com/r/crate/crate/):
 
 ```
@@ -38,13 +37,13 @@ delivered as a series of videos with supporting additional resources, code,
 and hands-on exercises.  Pass the final exam and you can earn a Certificate
 of Completion to share on your LinkedIn Profile.
 
-Start your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) today!.
+Begin your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) today!
 
 ## Join the Community / Meet Us
 
 We'd love you to join our [online Discourse community](https://community.cratedb.com/). You'll find a welcoming place to ask questions, get help and check out tutorials.
 
-We're also on [Twitter/X](https://twitter.com/cratedb) and [LinkedIn](https://www.linkedin.com/company/crateio/posts/?feedView=all).
+We're also on [Twitter/X](https://twitter.com/cratedb), [LinkedIn](https://www.linkedin.com/company/crateio/posts/?feedView=all), [BlueSky](https://bsky.app/profile/cratedb.com), and [Mastodon](https://fosstodon.org/@cratedb).
 
 You'll find the CrateDB team at conferences, meet up events and workshops around the world.  Visit our [Events page](https://cratedb.com/event) to see where to find us.
 
