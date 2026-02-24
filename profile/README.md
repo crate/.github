@@ -18,7 +18,7 @@ There are two ways to get a CrateDB instance up and running quickly:
 1. Spin up the official [Docker image](https://hub.docker.com/r/crate/crate/):
 
 ```
-docker run --publish 4200:4200 --publish 5432:5432 --env CRATE_HEAP_SIZE=1g crate -Cdiscovery.type=single-node
+docker run --publish 4200:4200 --publish 5432:5432 --env CRATE_HEAP_SIZE=1g crate '-Cdiscovery.type=single-node'
 ```
 
 ## Discover CrateDB
