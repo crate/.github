@@ -43,7 +43,7 @@ Begin your learning journey at [learn.cratedb.com](https://learn.cratedb.com/) t
 
 We'd love you to join our [online Discourse community](https://community.cratedb.com/). You'll find a welcoming place to ask questions, get help and check out tutorials.
 
-We're also on [Twitter/X](https://twitter.com/cratedb), [LinkedIn](https://www.linkedin.com/company/crateio/posts/?feedView=all), [BlueSky](https://bsky.app/profile/cratedb.com), and [Mastodon](https://fosstodon.org/@cratedb).
+We're also on [LinkedIn](https://www.linkedin.com/company/crateio/posts/?feedView=all), [BlueSky](https://bsky.app/profile/cratedb.com), and [Mastodon](https://fosstodon.org/@cratedb).
 
 You'll find the CrateDB team at conferences, meet up events and workshops around the world.  Visit our [Events page](https://cratedb.com/event) to see where to find us.
 
