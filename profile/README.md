@@ -4,12 +4,6 @@ CrateDB is an Open Source distributed database that makes it simple to store and
 
 ![The CrateDB Admin Interface](https://raw.githubusercontent.com/crate/.github/master/profile/crate-admin.gif)
 
-## Open Source Survey 2026
-
-At CrateDB, we’re deeply committed to our Open Source community and users, and we want to ensure we’re moving in the right direction. To do that, we need your input. Please take five minutes to complete this short survey. Your feedback will directly influence our Open Source strategy.
-
-Please take the [survey](https://www.survio.com/survey/d/N0R2V7S9K6R3Q7B2X).
-
 ## Try it Out
 
 There are two ways to get a CrateDB instance up and running quickly:
